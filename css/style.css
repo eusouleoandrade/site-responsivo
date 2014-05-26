@@ -1,0 +1,64 @@
+/*
+Design Responsivo
+
+Autor:		Leando Andrade
+E-mail:		eusouleoandrade@gmail.com
+
+Base:		http://tableless.com.br/design-responsivo-na-pratica-2-layout-ao-html/
+
+*/
+
+/* ==========================================================================
+   Normatização CSS
+   ========================================================================== */
+
+body{
+   	font-size: 62.5%;
+   	line-height: 1.5;
+   	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   	color: #444;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+   	color: #00ccff;
+   	text-decoration: none;
+   	font-size: 1.6em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* ==========================================================================
+   Estilos Principais
+   ========================================================================== */
+
+.cotainer {
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+img,
+picture,
+video,
+embed {
+	max-width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 48px;
+	margin-top: 3.6em;
+	margin-bottom: 3.6em;
+}
+
+.logo {
+	float: left;
+	width: 20.744680851064%; /*234px / 1128px */
+}
